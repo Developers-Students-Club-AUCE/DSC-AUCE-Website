@@ -535,11 +535,21 @@
   /*---------------------------------------
      MENU              
   -----------------------------------------*/
-
+  .btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  .success {
+    color: green;
+  }
   #menu {
     padding-bottom: 0;
   }
-
+  
   #menu .container {
     width: 100%;
   }
@@ -626,8 +636,10 @@
   .menu-thumb:hover .menu-info {
     background: rgba(0,0,0,0.8);
   }
-
-
+  .ebc{
+    background-color:black;
+  }
+  
 
   /*---------------------------------------
       TESTIMONIAL             
