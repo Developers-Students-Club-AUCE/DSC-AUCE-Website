@@ -531,7 +531,7 @@ section {
   margin-top: 5px;
 }
 
------------------------------------------------------------------------------------------
+
   /*---------------------------------------
       TEAM
   -----------------------------------------*/
@@ -689,8 +689,8 @@ footer .social-icon {
 
 .social-icon li a {
   border-radius: 100px;
-  color: #ce3232;
-  font-size: 15px;
+  color: #797777 !important;
+  font-size: 23px;
   width: 35px;
   height: 35px;
   line-height: 35px;
@@ -701,8 +701,8 @@ footer .social-icon {
 }
 
 .social-icon li a:hover {
-  background: #ce3232;
-  color: #ffffff;
+  background: black;
+  color: #ffffff !important;
 }
 
  .footer-contact-info{
