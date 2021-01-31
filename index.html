@@ -23,6 +23,11 @@
   <link rel="stylesheet" href="css/preloader.css">
   <link rel="icon" href="images/Homepage/favicon.png" type="image/icon type">
 
+  <style>
+    .wow{
+      padding: 10px;
+    }
+  </style>
 </head>
 
 <body>
@@ -66,18 +71,12 @@
     <div class="row">
 
       <div class="owl-carousel owl-theme">
-        <div class="item item-first">
-          <div class="caption">
-            <div class="container">
-              <div class="col-md-8 col-sm-12">
-                <h3>Hello Developers</h3>
-                <h1>Our mission is to provide an amazing learning experience</h1>
-                <a href="team.html" class="section-btn btn btn-default smoothScroll">Meet our team</a>
-              </div>
-            </div>
-          </div>
+        <div class="carousel-item item-first active" data-interval="6000">
+          <video plays inline autoplay muted loop  id="myVideo">
+            <source src="images/Homepage/carousel.mp4" type="video/mp4">
+          </video>
+          
         </div>
-
       </div>
   </section>
 
@@ -104,7 +103,7 @@
 
         <div class="col-md-6 col-sm-12">
           <div class="wow fadeInUp about-image" data-wow-delay="0.6s">
-            <img src="images/Homepage/About.png" class="img-responsive" alt="">
+            <img src="images/Homepage/About.png" style="display: block; margin: 15px auto; height:300px; width:400px;" class="img-responsive" alt="">
           </div>
         </div>
 
@@ -119,13 +118,13 @@
       <div class="row">
         <div class="col-md-6 col-sm-12">
           <div class="wow fadeInUp about-image" data-wow-delay="0.6s">
-            <img src="images/events/events.jpg" style="height:400px; width:400px;" class="img-responsive" alt="">
+            <img src="images/events/events.jpg" style="display: block; margin: 15px auto; height:400px; width:400px;" class="img-responsive" alt="">
           </div>
         </div>
         <div class="col-md-6 col-sm-12">
           <div class="about-info">
             <div class="section-title wow fadeInUp" data-wow-delay="0.2s">
-              <h2>Our Events !</h2>
+              <h2>Our Events</h2>
             </div>
 
             <div class="wow fadeInUp" data-wow-delay="0.4s" style="text-align: left;">
@@ -143,6 +142,35 @@
     </div>
   </section>
 
+  <!-- TEAMS -->
+  <section id="home" data-stellar-background-ratio="0.5">
+    <div class="container" style="padding: 40px 10px 60px 10px;">
+      <div class="row">
+        
+        <div class="col-md-6 col-sm-12">
+          <div class="about-info">
+            <div class="section-title wow fadeInUp" data-wow-delay="0.2s">
+              <h2>Our Team</h2>
+            </div>
+
+            <div class="wow fadeInUp" data-wow-delay="0.4s" style="text-align: left;">
+              <p>"Coming together is a beginning, keeping together is progress and working together is success" .</p>
+              <p>Following the words of Henry Ford, we present you with this amazing amalgamation of talent who are working hard to create an opportunity for students to learn, build, and grow. </p>
+              
+              <p><a href="team.html" target="_blank">Meet our Team.</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="wow fadeInUp about-image" data-wow-delay="0.6s">
+            <img src="images/Homepage/teams.png" style="display: block; margin: 15px auto; height:300px;width: auto;" class="img-responsive" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr>
   <!-- CONTACT -->
   <section id="contact" data-stellar-background-ratio="0.5">
     <div class="container">
