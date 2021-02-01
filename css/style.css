@@ -62,6 +62,12 @@ html {
 #android:hover {
   color: #ce3232;
 }
+#gcp {
+  color: white;
+}
+#gcp:hover {
+  color: #ce3232;
+}
 
 a {
   color: #252525;
