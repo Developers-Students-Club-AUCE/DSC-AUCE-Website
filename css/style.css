@@ -422,7 +422,9 @@ section {
   #myVideo {
     width: 100%;
     height: 100%;
+    margin-top: 69px;
   }
+  
   body {
     background: url("");
     background-size: cover;
@@ -884,6 +886,7 @@ footer .social-icon {
   .top-nav-collapse .navbar-brand {
     color: #252525;
     font-weight: 600;
+    width:39px
   }
 
   .custom-navbar .nav li a,
