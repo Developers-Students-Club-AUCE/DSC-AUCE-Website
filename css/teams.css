@@ -212,10 +212,12 @@ section {
   color: #000000;
   font-size: 18px;
   font-weight: bold;
+  width:39px;
 }
 
 .custom-navbar .navbar-brand span {
   color: #ce3232;
+  /*width:39px;*/
 }
 
 .top-nav-collapse {
